@@ -27,6 +27,8 @@ dependencies {
     //implementation 'org.springframework.ai:spring-ai-starter-mcp-server'
     implementation 'org.springframework.ai:spring-ai-starter-mcp-server-webflux'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
 }
 
 dependencyManagement {
